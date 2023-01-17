@@ -1,0 +1,20 @@
+<table border="1">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>updatedat</th>
+            <th>name</th>
+            <th>date</th>
+            <th>courseid</th>
+        </tr>
+    </thead>
+    <% for(var i=0; i < employees.length; i++) {%>
+        <tr>
+            <td><%= employees[i].id%></td>
+            <td><%= employees[i].updatedat%></td>
+            <td><%= employees[i].name%></td>
+            <td><%= employees[i].date%></td>
+            <td><%= employees[i].courseid%></td>
+        </tr>
+        <% } %>
+</table>
